@@ -1,4 +1,4 @@
-FROM base:latest
+FROM qingfeng1987/k8s-gerrit-base:latest
 
 RUN apk update && \
     apk add --no-cache \
